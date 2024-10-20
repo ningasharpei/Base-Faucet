@@ -1,0 +1,22 @@
+{
+  "name": "base-faucet",
+  "version": "1.0.0",
+  "description": "A simple faucet contract for distributing Base tokens to users.",
+  "main": "truffle-config.js",
+  "scripts": {
+    "test": "truffle test",
+    "migrate": "truffle migrate"
+  },
+  "keywords": ["base", "faucet", "blockchain", "solidity"],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^1.4.3",
+    "dotenv": "^10.0.0",
+    "web3": "^1.5.2"
+  },
+  "devDependencies": {
+    "truffle": "^5.4.29",
+    "ganache-cli": "^6.12.2"
+  }
+}
